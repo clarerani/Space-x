@@ -1,11 +1,12 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider, Outlet, Link } from "react-router-dom";
+import DashboardPage from "../components/dashboard";
 
 // Page Components
 const Home = () => <h1>Welcome to Spacex Demo App</h1>;
 const About = () => <h1>About Page</h1>;
 const NotFound = () => <h1>404 - Page Not Found</h1>;
-const Dashboard = () => <h1>Dashboard</h1>
+const Dashboard = () => <h1><DashboardPage /></h1>
 
 // Navigation Component
 const Navigation = () => (

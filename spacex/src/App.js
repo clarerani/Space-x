@@ -1,5 +1,5 @@
 
-import './App.css';
+// import './App.css';
 import logo from "./spacex-logo.png";
 import Layout from "../src/layout/layout"
 
